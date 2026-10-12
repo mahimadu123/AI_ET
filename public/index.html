@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Powered Expense Tracker</title>
+</head>
+<body>
+    <h2>AI Powered Smart Expense Tracker 🤖</h2>
+    <form onsubmit="addExpense(event)">
+        <input type="text" id="username" placeholder="Your Name" required><br><br>
+        <input type="number" id="expenseamount" placeholder="Amount" required><br><br>
+        <input type="text" id="description" placeholder="Description (e.g., Lunch at Domino's)" required><br><br>
+        <button type="submit">Add Expense (AI Categorize)</button>
+    </form>
+
+    <br>
+    <button onclick="showLeaderboard()">Show Leaderboard</button>
+    <ul id="leaderboardList"></ul>
+
+    <script src="leaderBoard.js"></script>
+</body>
+</html>

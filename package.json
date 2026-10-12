@@ -1,0 +1,15 @@
+{
+  "name": "expense-tracker-ai",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1"
+  }
+}
